@@ -59,7 +59,6 @@ nav a:hover {
 footer {
   background: #333;
   color: #fff;
-  text-align: center;
   padding: 20px 0;
 }
 
@@ -76,4 +75,74 @@ img {
 }
 .logo_wrap{
   display: flex;
+  text-align: center;
+}
+.footer__menu
+{
+  width: 70%;
+}
+.footer_menu
+{
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.footer_up
+{
+  margin-bottom: 7px;
+}
+.footer_mid{
+  margin-bottom: 7px;
+}
+
+.item1{
+margin-top: 10px;
+}
+.card__item
+{
+  display: flex;
+  border: black;
+}
+.card__img
+{
+  width: 45%;
+}
+#click button
+{
+  background: none;
+  border: none;
+}
+.card__img{
+  max-width: 100%;
+  height: auto;
+}
+.card__img{
+  background-image: url("images/linux_image.webp");
+  width: 35%;
+  background-size: cover;
+  background-position: center;
+}
+.card__item{
+  border: 1px solid;
+  display: flex;
+  min-height: 400PX;
+  margin-bottom: 20px;
+}
+.section{
+  padding: 40px;
+}
+.card__desc{
+  padding: 30px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card__bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.views{
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
