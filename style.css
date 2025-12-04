@@ -14,9 +14,6 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* Header */
@@ -69,4 +66,14 @@ footer {
 img {
   width: 50px;
   height: 50px;
+}
+.footer__logo
+{
+  width: 30%;
+}
+.footer__wrap{
+  display: flex;
+}
+.logo_wrap{
+  display: flex;
 }
