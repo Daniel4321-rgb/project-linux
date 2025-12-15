@@ -97,52 +97,82 @@ img {
 .item1{
 margin-top: 10px;
 }
-.card__item
-{
-  display: flex;
-  border: black;
-}
-.card__img
-{
-  width: 45%;
-}
-#click button
-{
-  background: none;
-  border: none;
-}
-.card__img{
-  max-width: 100%;
-  height: auto;
-}
-.card__img{
-  background-image: url("images/linux_image.webp");
-  width: 35%;
-  background-size: cover;
-  background-position: center;
-}
-.card__item{
-  border: 1px solid;
-  display: flex;
-  min-height: 400PX;
-  margin-bottom: 20px;
-}
+
+
 .section{
   padding: 40px;
 }
-.card__desc{
-  padding: 30px;
-  width: 65%;
+.cards__wrap
+{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.cards_item img{  
+  background-size: cover;
+  width: 200px;
+  height: 100px;
+
+}
+.cards_item{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.title_left{
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid purple;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 20px;
+
+}
+
+
+.title_right{
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: blue;
+  font-size: 20px;
+}
+.cards_img{
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top ;
+}
+.card_text{
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.likes{
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+.cards_bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.credits{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: end;
+  color: pink;
+  font-family: 'Courier New', Courier, monospace;
 }
-.card__bottom{
-  display: flex;
-  justify-content: space-between;
-}
-.views{
-  display: flex;
-  gap: 10px;
-  align-items: center;
+.likes img
+{
+  width: 80%;
 }
