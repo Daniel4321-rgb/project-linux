@@ -159,7 +159,7 @@ margin-top: 10px;
 .likes{
   cursor: pointer;
   border: none;
-  background-color: white;
+  background: none;
 }
 .cards_bottom{
   display: flex;
@@ -169,7 +169,7 @@ margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  color: pink;
+  color: grey;
   font-family: 'Courier New', Courier, monospace;
 }
 .likes img
@@ -178,6 +178,7 @@ margin-top: 10px;
 }
 .section_title
 {
+  margin: 30px;
   text-align: center;
   font-weight: bold;
   font-size: 200%;
@@ -193,10 +194,10 @@ margin-top: 10px;
   background-color: wheat;
   border: darkmagenta solid 5px;
   border-radius: 10px;
-  padding: 5px;
-  margin: 10px;
+  padding: 10px;
+  margin: 20px;
   width: 260px;
-  height: 260%;
+  height: 540px;
 }
 .img_info1{
   height: 70px;
