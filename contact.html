@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <h1>My Website</h1>
+        <h1>My Website - contact page</h1>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -20,11 +20,41 @@
       </div>
     </header>
 
-    <main>
+    <main class = "contact">
       <div class="container">
-        <h2>Contact</h2>
-        <p>Email: example@mail.com</p>
-        <p>Phone: +1 123-456-7890</p>
+        <div class="title_contact">
+          
+        </div>
+        <div class="form__wrap">
+          <div class="title_form">
+            Contact us!
+          </div>
+          <form class = "contact_form">
+            <div class="first_layer">
+              <div class="first_name">
+                <label for = "fname">First name: </label>
+                <input type="text" id="fname" name="fname" placeholder="first name" required>
+              </div>
+              <div class="last_name">
+                <label for = "lname">Last name: </label>
+                <input type = "text" id="lname" name="lname" placeholder="last name" required>
+              </div>
+            </div>
+            <div class = "second_layer">
+              <div class="email">
+                <label for = "email">Your email: </label>
+                <input type = "email" id = "email" name = "email" placeholder="your email" required>
+              </div>
+              <div class="phone_number">
+                <label for = "phone_number">Your phone number: </label>
+                <input type = "tel" id = "phone_number" name = "phone_number" placeholder="phone number">
+              </div>
+            </div>
+            <div class="sumbit_button">
+              <button type = "sumbit" onclick="sumbit_button()">Sumbit</button>
+            </div>  
+          </form>
+        </div>
       </div>
     </main>
 
@@ -33,5 +63,6 @@
         <p>© 2025 My Website. All rights reserved.</p>
       </div>
     </footer>
+    <script src="javaScript.js"></script>
   </body>
 </html>

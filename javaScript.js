@@ -9,3 +9,7 @@ function newButton()
     p.style.borderRadius = "15px";
     p.style.color = "blue";
 }
+function sumbit_button()
+{
+    alert("thank you for contacting us!");
+}

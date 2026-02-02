@@ -271,3 +271,75 @@ margin-top: 10px;
   flex-direction: column;
   align-items: center;
 }
+
+.contact .form__wrap
+{
+  border: 3px solid lightcoral;
+  border-radius: 15px;
+  width: 80%;
+}
+.contact .container
+{
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.contact .title_form
+{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  justify-content: center;
+  display: flex;
+  background-color: aqua;
+}
+.contact .first_name
+{
+  background-color: lightcyan;
+  color: purple;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.contact .last_name
+{
+  color: purple;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.contact .first_layer
+{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.contact .email
+{
+  color: lightslategray;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.contact .second_layer
+{
+  display: flex;
+  justify-content: space-around;
+}
+.contact .phone_number
+{
+  color: lightslategray;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.contact .sumbit_button
+{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.contact .sumbit_button button
+{
+  font-size: 20px;
+  color: blue;
+  background-color: green;
+  border-radius: 15px;
+}
