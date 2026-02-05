@@ -9,7 +9,7 @@
   <body>
     <header>
       <div class="container">
-        <h1>My Website - contact page</h1>
+        <h1>My website linux - contact page</h1>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -22,38 +22,44 @@
 
     <main class = "contact">
       <div class="container">
-        <div class="title_contact">
-          
-        </div>
         <div class="form__wrap">
           <div class="title_form">
             Contact us!
+            <img src="images/contact.png" alt="">
           </div>
           <form class = "contact_form">
-            <div class="first_layer">
+            <div class="form_text">
               <div class="first_name">
                 <label for = "fname">First name: </label>
-                <input type="text" id="fname" name="fname" placeholder="first name" required>
               </div>
               <div class="last_name">
                 <label for = "lname">Last name: </label>
-                <input type = "text" id="lname" name="lname" placeholder="last name" required>
               </div>
-            </div>
-            <div class = "second_layer">
               <div class="email">
                 <label for = "email">Your email: </label>
-                <input type = "email" id = "email" name = "email" placeholder="your email" required>
               </div>
               <div class="phone_number">
-                <label for = "phone_number">Your phone number: </label>
-                <input type = "tel" id = "phone_number" name = "phone_number" placeholder="phone number">
+                <label for = "phone_number">Phone number: </label>
               </div>
             </div>
+            <div class="form_input">
+              <div class="input">
+                <input type="text" id="fname" name="fname" placeholder="first name" required>                
+              </div>
+              <div class="input">
+                <input type = "text" id="lname" name="lname" placeholder="last name" required>
+              </div>
+              <div class="input">
+                <input type = "email" id = "email" name = "email" placeholder="your email" required>
+              </div>
+              <div class="input">
+                <input type = "tel" id = "phone_number" name = "phone_number" placeholder="phone number" required>
+              </div>
+            </div>
+          </form>
             <div class="sumbit_button">
               <button type = "sumbit" onclick="sumbit_button()">Sumbit</button>
             </div>  
-          </form>
         </div>
       </div>
     </main>
@@ -61,6 +67,7 @@
     <footer>
       <div class="container">
         <p>© 2025 My Website. All rights reserved.</p>
+        <img src="images/tough_linuz.png" alt="">
       </div>
     </footer>
     <script src="javaScript.js"></script>
