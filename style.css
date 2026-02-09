@@ -381,3 +381,20 @@ margin-top: 10px;
 {
   padding: 6px;
 }
+
+.javaScriptFun .red
+{
+  color: red;
+}
+.javaScriptFun .green
+{
+  color: green;
+}
+.javaScriptFun .blue
+{
+  color: blue;
+}
+.javaScriptFun .buttons button
+{
+  font-size: large;
+}
