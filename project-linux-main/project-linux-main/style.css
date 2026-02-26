@@ -1,0 +1,411 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color:  pink;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  padding: 40px 0;
+}
+
+.section:nth-child(even) {
+  background: #f4f4f4;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+.footer__logo
+{
+  width: 30%;
+}
+.footer__wrap{
+  display: flex;
+}
+.logo_wrap{
+  display: flex;
+  text-align: center;
+}
+.footer__menu
+{
+  width: 70%;
+}
+.footer_menu
+{
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.footer_up
+{
+  margin-bottom: 7px;
+}
+.footer_mid{
+  margin-bottom: 7px;
+}
+
+.item1{
+margin-top: 10px;
+}
+
+
+.section{
+  padding: 40px;
+}
+.cards__wrap
+{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.cards_item img{  
+  background-size: cover;
+  width: 200px;
+  height: 100px;
+
+}
+.cards_item{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.title_left{
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid purple;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 20px;
+
+}
+
+
+.title_right{
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: blue;
+  font-size: 20px;
+}
+.cards_img{
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top ;
+}
+.card_text{
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.likes{
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.cards_bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.credits{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: grey;
+  font-family: 'Courier New', Courier, monospace;
+}
+.likes img
+{
+  width: 80%;
+}
+.section_title
+{
+  margin: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  text-decoration: overline 10px green;
+}
+.info_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.info_card{
+  background-color: wheat;
+  border: darkmagenta solid 5px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  width: 260px;
+  height: 540px;
+}
+.img_info1{
+  height: 70px;
+  width: 70px;
+  background-image: url("images/service1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.img_info2{
+  height: 70px;
+  width: 70px;
+  background-image: url("images/service2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.img_info3{
+  height: 70px;
+  width: 70px;
+  background-image: url("images/service3.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.img_info4{
+  height: 70px;
+  width: 70px;
+  background-image: url("images/service4.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.img_info5{
+  height: 70px;
+  width: 70px;
+  background-image: url("images/service5.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.img_info6{
+  height: 70px;
+  width: 70px;
+  background-image: url("images/service6.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.info_title{
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline 2px;
+  margin: 5px;
+}
+.info_text{
+  color: brown;
+  margin: 10px;
+  font-size: 20px;
+}
+.specialButton
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .form__wrap
+{
+  border: 3px solid lightcoral;
+  border-radius: 15px;
+  width: 80%;
+}
+.contact .container
+{
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.contact .title_form
+{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+}
+
+.contact .first_name
+{
+  margin: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact .last_name
+{
+  margin: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact .email
+{
+  margin: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact .phone_number
+{
+  margin: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact .sumbit_button
+{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.contact .sumbit_button button
+{
+  font-size: 15px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact .container
+{
+  height: 500px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.contact .contact_form
+{
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact
+{
+  background-color: black;
+}
+.contact .form_text
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end ;
+}
+.contact .form_input
+{
+  display: flex;
+  flex-direction: column;
+}
+.contact .form_input input
+{
+  margin: 20px;
+  border: 1px solid white;
+  height: 20px;
+  padding-left: 5px
+}
+
+.form_text{
+  color: white;
+  text-decoration: none;
+}
+.contact .input
+{
+  padding: 6px;
+}
+
+.javaScriptFun .red
+{
+  color: red;
+}
+.javaScriptFun .green
+{
+  color: green;
+}
+.javaScriptFun .blue
+{
+  color: blue;
+}
+.javaScriptFun .buttons button
+{
+  font-size: large;
+}
+.javaScriptFun .longLine
+{
+  height: 30px;
+  background-color: black;
+}
+.javaScriptFun .hoverBox
+{
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}

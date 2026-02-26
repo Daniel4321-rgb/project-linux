@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class = "javaScriptFun">
+
+    <div id="items">
+        <p class = "sentence">This is the first sentence</p>
+        <p class = "sentence">This is the second sentence</p>
+        <p class = "sentence">This is the third sentence</p>
+    </div>
+    <div class="buttons">
+        <button onclick="changeColor('red')">Press here to change to red</button>
+        <button onclick="changeColor('green')">Press here to change to green</button>
+        <button onclick="changeColor('blue')">Press here to change to blue</button>
+    </div>
+    <hr class = "longLine">
+
+    <div class = "titelDom">
+        <h1>This is playing with dom</h1>
+        <h2> task 1 changing headline color to blue</h2>
+        <p id = "headline">This is good headline</p>
+        <input type = "button" onClick = "changeHeadline()" value =  "press me to change the head line to blue">
+        <h2> task 2 hiding elemnt</h2>
+        <p id = "hideElement">Hi i am the element</p>
+        <input type = "button" onClick = "hideElement()" value = "press to make the element apear and disapear">
+        <h2 >task 3 change text with headline</h2>
+        <p onclick= headlineText()>i am the headline press on me to change my text </p>
+        <p id = "textChange">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsa tempora omnis perferendis similique explicabo nam veniam nostrum debitis odio!</p>
+        <h2>task 5 change color on hover</h3>
+        <p id = "sentenceHover" onmouseover="hoverColor()" onmouseout="resetColor()">hover on me to see something</p>
+        <h1>homework🥀💀</h1>
+        <h2>task 1 + 2</h2>
+        <p>hover on the box to see something magical</p>
+        <div class = "hoverBox" onmouseover = "enterHoverBox()" onmouseout = "exitHoverBox()"></div>
+        <h2>task 3 button counter</h2>
+        
+    </div>
+    
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
