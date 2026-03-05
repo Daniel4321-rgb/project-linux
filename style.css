@@ -398,3 +398,14 @@ margin-top: 10px;
 {
   font-size: large;
 }
+.javaScriptFun .longLine
+{
+  height: 30px;
+  background-color: black;
+}
+.javaScriptFun .hoverBox
+{
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}

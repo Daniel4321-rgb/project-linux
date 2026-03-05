@@ -20,3 +20,45 @@ function changeColor(color)
     let p = document.querySelector("#items");
     p.className = color;
 }
+function changeHeadline()
+{
+    let p = document.querySelector("#headline")
+    p.style.color = "blue";
+}
+function hideElement()
+{
+    let p = document.querySelector("#hideElement");
+    if (p.style.display === "block")
+    {
+        p.style.display = "none";
+    }
+    else
+    {
+        p.style.display = "block";
+    }
+}
+function headlineText()
+{
+    let p = document.querySelector("#textChange");
+    p.textContent = "epstein just appeared!";
+}
+function hoverColor()
+{
+    let p = document.querySelector("#sentenceHover");
+    p.style.color = "red";
+}
+function resetColor()
+{
+    let p = document.querySelector("#sentenceHover");
+    p.style.color = "black";
+}
+function enterHoverBox()
+{
+    let p = document.querySelector(".hoverBox");
+    p.style.backgroundColor = "yellow";
+}
+function exitHoverBox()
+{
+    let p = document.querySelector(".hoverBox");
+    p.style.backgroundColor = "grey"
+}
