@@ -62,3 +62,48 @@ function exitHoverBox()
     let p = document.querySelector(".hoverBox");
     p.style.backgroundColor = "grey"
 }
+
+function changeTheme()
+{
+    let p = document.querySelector("#javaScriptFunWrap");
+    if (p.classList.contains("whiteTheme"))
+    {
+        p.classList.replace("whiteTheme", "blackTheme");
+    }
+    else
+    {
+        p.classList.replace("blackTheme", "whiteTheme")
+    }
+}
+function changeClass()
+{
+    let p = document.querySelector("#changeClassText");
+    if (p.classList.contains("visible"))
+    {
+        p.classList.replace("visible", "hidden");
+    }
+    else
+    {
+        p.classList.replace("hidden", "visible");
+    }
+}
+
+
+function changeTab(tab)
+{
+    tabTexts = ["Hello", "How are you doing", "have a nice day"]
+    let p  = document.querySelector("#tabsText");
+    p.textContent = tabTexts[tab]
+}
+
+function addOrRemove(element)
+{
+    if (element.classList.contains("noRed"))
+    {
+        element.classList.replace("noRed", "yesRed");
+    }
+    else
+    {
+        element.classList.replace("yesRed", "noRed");
+    }
+}

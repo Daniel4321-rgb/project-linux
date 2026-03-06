@@ -409,3 +409,41 @@ margin-top: 10px;
   height: 100px;
   background-color: grey;
 }
+.javaScriptFun .whiteTheme
+{
+  background-color: white;
+  color: black;
+}
+.javaScriptFun .blackTheme
+{
+  background-color: black;
+  color: white;
+}
+.javaScriptFun .visible
+{
+  font-size: large;
+  color: grey;
+}
+.javaScriptFun .hidden
+{
+  display: none;
+}
+.javaScriptFun .tabs button
+{
+  font-size: larger;
+  margin: 5px;
+  
+}
+.javaScriptFun #object
+{
+  font-size: 20px;
+  margin: 10px;
+}
+.javaScriptFun .noRed
+{
+  color: black;
+}
+.javaScriptFun .yesRed
+{
+  color: red;
+}

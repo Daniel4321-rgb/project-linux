@@ -8,37 +8,70 @@
 </head>
 <body class = "javaScriptFun">
 
-    <div id="items">
-        <p class = "sentence">This is the first sentence</p>
-        <p class = "sentence">This is the second sentence</p>
-        <p class = "sentence">This is the third sentence</p>
-    </div>
-    <div class="buttons">
-        <button onclick="changeColor('red')">Press here to change to red</button>
-        <button onclick="changeColor('green')">Press here to change to green</button>
-        <button onclick="changeColor('blue')">Press here to change to blue</button>
-    </div>
-    <hr class = "longLine">
-
-    <div class = "titelDom">
-        <h1>This is playing with dom</h1>
-        <h2> task 1 changing headline color to blue</h2>
-        <p id = "headline">This is good headline</p>
-        <input type = "button" onClick = "changeHeadline()" value =  "press me to change the head line to blue">
-        <h2> task 2 hiding elemnt</h2>
-        <p id = "hideElement">Hi i am the element</p>
-        <input type = "button" onClick = "hideElement()" value = "press to make the element apear and disapear">
-        <h2 >task 3 change text with headline</h2>
-        <p onclick= headlineText()>i am the headline press on me to change my text </p>
-        <p id = "textChange">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsa tempora omnis perferendis similique explicabo nam veniam nostrum debitis odio!</p>
-        <h2>task 5 change color on hover</h3>
-        <p id = "sentenceHover" onmouseover="hoverColor()" onmouseout="resetColor()">hover on me to see something</p>
+    <div id = "javaScriptFunWrap" class = "whiteTheme">
         <h1>homework🥀💀</h1>
-        <h2>task 1 + 2</h2>
-        <p>hover on the box to see something magical</p>
-        <div class = "hoverBox" onmouseover = "enterHoverBox()" onmouseout = "exitHoverBox()"></div>
-        <h2>task 3 button counter</h2>
-        
+        <h2>Task 1: changing classes</h2>
+        <div id="items">
+            <p class = "sentence">This is the first sentence</p>
+            <p class = "sentence">This is the second sentence</p>
+            <p class = "sentence">This is the third sentence</p>
+        </div>
+        <div class="buttons">
+            <button onclick="changeColor('red')">Press here to change to red</button>
+            <button onclick="changeColor('green')">Press here to change to green</button>
+            <button onclick="changeColor('blue')">Press here to change to blue</button>
+        </div>
+
+        <div class="changeThemeItems">
+            <h2>Task 2 change theme: </h2>
+            <button onclick = "changeTheme()">Press Here to change theme</button>
+        </div>
+        <div class="disapearClass">
+            <h2>Task 4 change class: </h2>
+            <p id = "changeClassText" class = "visible">Hello i am the element</p>
+            <button onclick="changeClass()">Press me!</button>
+        </div>
+
+        <div class="tabsChange">
+            <h2>Task 5: change tabs</h2>
+            <div class="tabs">
+                <button class="tab" onclick="changeTab(0)">Tab 1</button>
+                <button class="tab" onclick="changeTab(1)">Tab 2</button>
+                <button class="tab" onclick="changeTab(2)">Tab 3</button>
+            </div>
+            <p id = "tabsText"></p>
+        </div>
+
+        <div class="addOrRemoveRed">
+            <h2>Task 6: add or remove red from objecs</h2>
+            <div class="objecs">
+                <p id = "object" class = "noRed" onclick="addOrRemove(this)">How</p>
+                <p id = "object" class = "noRed" onclick ="addOrRemove(this)">Are</p>
+                <p id = "object" class = "noRed" onclick ="addOrRemove(this)">You</p>
+                <p id = "object" class = "noRed" onclick ="addOrRemove(this)">????</p>
+            </div>
+        </div>
+
+        <hr class = "longLine">
+        <div class = "titelDom">
+            <h1>Pracitse with dom</h1>
+            <h2> task 1 changing headline color to blue</h2>
+            <p id = "headline">This is good headline</p>
+            <input type = "button" onClick = "changeHeadline()" value =  "press me to change the head line to blue">
+            <h2> task 2 hiding elemnt</h2>
+            <p id = "hideElement">Hi i am the element</p>
+            <input type = "button" onClick = "hideElement()" value = "press to make the element apear and disapear">
+            <h2 >task 3 change text with headline</h2>
+            <p onclick= headlineText()>i am the headline press on me to change my text </p>
+            <p id = "textChange">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsa tempora omnis perferendis similique explicabo nam veniam nostrum debitis odio!</p>
+            <h2>task 5 change color on hover</h3>
+            <p id = "sentenceHover" onmouseover="hoverColor()" onmouseout="resetColor()">hover on me to see something</p>
+            <h1>practise</h1>
+            <h2>task 1 + 2</h2>
+            <p>hover on the box to see something magical</p>
+            <div class = "hoverBox" onmouseover = "enterHoverBox()" onmouseout = "exitHoverBox()"></div>
+            <h2>task 3 button counter</h2>
+        </div>
     </div>
     
 
