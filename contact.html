@@ -29,17 +29,23 @@
           </div>
           <form class = "contact_form">
             <div class="form_text">
-              <div class="first_name">
+              <div class="label">
                 <label for = "fname">First name: </label>
               </div>
-              <div class="last_name">
+              <div class="label">
                 <label for = "lname">Last name: </label>
               </div>
-              <div class="email">
+              <div class="label">
                 <label for = "email">Your email: </label>
               </div>
-              <div class="phone_number">
+              <div class="label">
                 <label for = "phone_number">Phone number: </label>
+              </div>
+              <div class="label">
+                <label for = "subjectMsg">Subject of the msg: </label>
+              </div>
+              <div class="label">
+                <label for = "msg">Write your msg: </label>
               </div>
             </div>
             <div class="form_input">
@@ -55,10 +61,16 @@
               <div class="input">
                 <input type = "tel" id = "phone_number" name = "phone_number" placeholder="phone number" required>
               </div>
+              <div class="input">
+                <input type="text" id = "subjectMsg" name = "subjectMsg" placeholder="subject msg" required>
+              </div>
+              <div class="input">
+                <textarea id = "msg" name = "msg" rows=  "4" cols = "30" placeholder="enter your msg here..."></textarea>
+              </div>
             </div>
           </form>
             <div class="sumbit_button">
-              <button type = "sumbit" onclick="sumbit_button()">Sumbit</button>
+              <button type = "sumbit" onclick="checkInfo()">Sumbit</button>
             </div>  
         </div>
       </div>

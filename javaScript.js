@@ -9,9 +9,69 @@ function newButton()
     p.style.borderRadius = "15px";
     p.style.color = "blue";
 }
-function sumbit_button()
+function checkInfo()
 {
-    alert("thank you for contacting us!");
+    let validFname = true
+    let validLname = true
+    let validEmail = true
+    let validPhone = true
+    let validSubjectMsg = true
+    let validMsg = true
+
+
+    const fname = document.querySelector("#fname").value;
+    if (fname.length < 3)
+    {
+        alert("first name is too short;");
+        validFname = false;
+    }
+
+    const lname = document.querySelector("#lname").value;
+    if (lname.length < 3)
+    {
+        alert("last name is too short;");
+        validLname = false
+    }
+
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;   
+    const email = document.querySelector("#email").value;
+    if (!emailPattern.test(email))
+    {
+        alert("Ilegal email!");
+        validEmail = false
+    }
+
+    const phone = document.querySelector("#phone_number").value;
+    if (phone.length > 10)
+    {
+        alert("the phone number is too long!");
+        validPhone = false
+    }
+    const subjectMsg = document.querySelector("#subjectMsg").value;
+    if (subjectMsg.length < 5)
+    {
+        alert("the subject of the msg is too short!");
+        validSubjectMsg = false;
+    }
+    
+    const msg = document.querySelector("#msg").value;
+    if (msg.length < 10)
+    {
+        alert("the msg is too short!");
+        validMsg = false;
+    }
+
+    let validSumbit = validFname && validLname && validEmail && validPhone && validSubjectMsg && validMsg
+    if (validSumbit)
+    {
+        alert("the form has been sumbited!!");
+    }
+    else
+    {
+        alert("the form has not been sumbited...:(")
+    }
+
+
 }
 
 function changeColor(color)
