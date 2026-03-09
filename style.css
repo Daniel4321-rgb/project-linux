@@ -320,7 +320,7 @@ margin-top: 10px;
 
 .contact .container
 {
-  height: 750px;
+  height: 720px;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -428,3 +428,31 @@ margin-top: 10px;
   color: red;
 }
 
+.contact .contactDownWrap
+{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.contact .contactEmail
+{
+  color: white;
+}
+.contact .contactPhone
+{
+  color: white;
+}
+.contact .phoneAndEmail
+{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contact .contactLinks
+{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: end;
+}
