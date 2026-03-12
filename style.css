@@ -320,7 +320,7 @@ margin-top: 10px;
 
 .contact .container
 {
-  height: 720px;
+  height: 750px;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -434,16 +434,15 @@ margin-top: 10px;
   justify-content: space-between;
   height: 100px;
 }
-.contact .contactEmail
+.contact .contactInfo
 {
   color: white;
-}
-.contact .contactPhone
-{
-  color: white;
+  padding: 5px;
 }
 .contact .phoneAndEmail
 {
+  padding: 10px;
+  margin: 10px;
   width: 300px;
   display: flex;
   flex-direction: column;
