@@ -2,12 +2,12 @@
 function newButton()
 {
     let p = document.querySelector(".newText")
-    p.style.backgroundColor = "yellow";
+    p.style.backgroundColor = "#408A71";
     p.style.borderStyle = "solid";
     p.style.borderWidth  = "medium" ;
     p.style.borderColor = "black";
     p.style.borderRadius = "15px";
-    p.style.color = "blue";
+    p.style.color = "#091413";
 }
 function checkInfo()
 {
