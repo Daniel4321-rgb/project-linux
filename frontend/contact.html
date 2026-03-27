@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>My website linux - contact page</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class = "contact">
+      <div class="container">
+        <div class="form__wrap">
+          <div class="title_form">
+            Contact us!
+            <img src="images/contact.png" alt="">
+          </div>
+          <form class = "contact_form">
+            <div class="form_text">
+              <div class="label">
+                <label for = "fname">First name: </label>
+              </div>
+              <div class="label">
+                <label for = "lname">Last name: </label>
+              </div>
+              <div class="label">
+                <label for = "email">Your email: </label>
+              </div>
+              <div class="label">
+                <label for = "phone_number">Phone number: </label>
+              </div>
+              <div class="label">
+                <label for = "subjectMsg">Subject of the msg: </label>
+              </div>
+              <div class="label">
+                <label for = "msg">Write your msg: </label>
+              </div>
+            </div>
+            <div class="form_input">
+              <div class="input">
+                <input type="text" id="fname" name="fname" placeholder="first name" required>                
+              </div>
+              <div class="input">
+                <input type = "text" id="lname" name="lname" placeholder="last name" required>
+              </div>
+              <div class="input">
+                <input type = "email" id = "email" name = "email" placeholder="your email" required>
+              </div>
+              <div class="input">
+                <input type = "tel" id = "phone_number" name = "phone_number" placeholder="phone number" required>
+              </div>
+              <div class="input">
+                <input type="text" id = "subjectMsg" name = "subjectMsg" placeholder="subject msg" required>
+              </div>
+              <div class="input">
+                <textarea id = "msg" name = "msg" rows=  "4" cols = "30" placeholder="enter your msg here..."></textarea>
+              </div>
+            </div>
+          </form>
+            <div class="sumbit_button">
+              <button id = "sumbitButtom" type = "sumbit">Sumbit</button>
+            </div>  
+
+            <div class="contactDownWrap">
+              <div class="phoneAndEmail">
+                  <div class="contactInfo">Our email: LinuxBibi@coolCompany.com</div>
+                  <div class="contactInfo">Our contact phone: 67959203478</div>
+              </div>
+              <div class="contactLinks">
+                <div class="link"><a href="https://www.facebook.com/?locale=he_IL"><img src="images/communication.png" alt=""></a></div>
+                <div class="link"><a href="https://github.com/"><img src="images/githubBlue.png" alt=""></a></div>
+                <div class="link"><a href="https://www.instagram.com/reel/DPh4a1SCN-p/"><img src="images/instagram.png" alt=""> </a></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 My Website. All rights reserved.</p>
+        <img src="images/tough_linuz.png" alt="">
+      </div>
+    </footer>
+    <script src="javaScript.js"></script>
+  </body>
+</html>
